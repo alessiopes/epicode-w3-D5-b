@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.continer-scacchiera {
+    width: 550px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.scacchiera {
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    border: solid 1px;
+}
+
+.riga {
+    width: 100%;
+    height: 12.5%;
+    display: block;
+    font-size: 0;
+}
+
+.elemento {
+    width: 12.5%;
+    height: 100%;
+    background-color: beige;
+    display: inline-block;
+}
+
+.elemento:nth-child(odd) {
+    background-color: black;
+}
+
+.riga:nth-child(even) .elemento:nth-child(even) {
+    background-color: black;
+}
+
+.riga:nth-child(even) .elemento:nth-child(odd) {
+    background-color: beige;
+}
+
+.elemento:hover {
+    background-color: red !important;
+}
+
+.title {
+    margin: 2em 0em;
+}
+
+.number-left {
+    position: absolute;
+    left: 0;
+    top: 52px;
+}
+
+.number-left:nth-child(2) {
+    top: 114px;
+}
+
+.number-left:nth-child(3) {
+    top: 176px;
+}
+
+.number-left:nth-child(4) {
+    top: 238px;
+}
+
+.number-left:nth-child(5) {
+    top: 300px;
+}
+
+.number-left:nth-child(6) {
+    top: 362px;
+}
+
+.number-left:nth-child(7) {
+    top: 424px;
+}
+
+.number-left:nth-child(8) {
+    top: 486px;
+}
+
+
+
+
+.number-right {
+    position: absolute;
+    right: 0;
+    top: 52px;
+}
+
+.number-right-2 {
+    top: 114px;
+    position: absolute;
+    right: 0;
+}
+
+.number-right-3 {
+    top: 176px;
+    position: absolute;
+    right: 0;
+}
+
+.number-right-4 {
+    top: 238px;
+    position: absolute;
+    right: 0;
+}
+
+.number-right-5 {
+    top: 300px;
+    position: absolute;
+    right: 0;
+}
+
+.number-right-6 {
+    top: 362px;
+    position: absolute;
+    right: 0;
+}
+
+.number-right-7 {
+    top: 424px;
+    position: absolute;
+    right: 0;
+}
+
+.number-right-8 {
+    top: 486px;
+    position: absolute;
+    right: 0;
+}
+
+
+
+.lettere-top {
+    position: absolute;
+    top: 0;
+    left: 52px;
+}
+
+.lettere-top-2 {
+    position: absolute;
+    top: 0;
+    left: 114px;
+}
+
+.lettere-top-3 {
+    position: absolute;
+    top: 0;
+    left: 176px;
+}
+
+.lettere-top-4 {
+    position: absolute;
+    top: 0;
+    left: 238px;
+}
+
+.lettere-top-5 {
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+.lettere-top-6 {
+    position: absolute;
+    top: 0;
+    left: 362px;
+}
+
+.lettere-top-7 {
+    position: absolute;
+    top: 0;
+    left: 424px;
+}
+
+.lettere-top-8 {
+    position: absolute;
+    top: 0;
+    left: 486px;
+}
+
+
+
+.lettere-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 52px;
+}
+
+.lettere-bottom-2 {
+    position: absolute;
+    bottom: 0;
+    left: 114px;
+}
+
+.lettere-bottom-3 {
+    position: absolute;
+    bottom: 0;
+    left: 176px;
+}
+
+.lettere-bottom-4 {
+    position: absolute;
+    bottom: 0;
+    left: 238px;
+}
+
+.lettere-bottom-5 {
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+}
+
+.lettere-bottom-6 {
+    position: absolute;
+    bottom: 0;
+    left: 362px;
+}
+
+.lettere-bottom-7 {
+    position: absolute;
+    bottom: 0;
+    left: 424px;
+}
+
+.lettere-bottom-8 {
+    position: absolute;
+    bottom: 0;
+    left: 486px;
+}
